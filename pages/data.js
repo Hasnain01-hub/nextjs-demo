@@ -1,4 +1,4 @@
-export defualt const data = [
+export default const data = [
   {
     id: 1,
     name: "Product 1",
