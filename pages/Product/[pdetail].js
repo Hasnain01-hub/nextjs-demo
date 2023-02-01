@@ -133,9 +133,9 @@ export const getStaticProps = (context) => {
 ];
 
   const path = context.params.pdetail;
-  const pdata = data.filter((post) => {
-   return if (post.id.toString() == path) return post;
-  });
+  const pdata = data.filter((post) => 
+    if (post.id.toString() == path) return post;
+  );
 
   console.log(path);
   return {
