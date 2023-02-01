@@ -18,4 +18,6 @@ module.exports = {
     "autoprefixer",
     ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
   ],
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
+
 };
