@@ -11,13 +11,13 @@ const purgecss = [
     defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
   },
 ];
-module.exports = {
+// module.exports = {
 //   plugins: [
 //     "postcss-import",
 //     "tailwindcss",
 //     "autoprefixer",
 //     ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
 //   ],
-  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
+//   pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
 
-};
+// };
