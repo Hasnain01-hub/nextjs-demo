@@ -12,12 +12,12 @@ const purgecss = [
   },
 ];
 module.exports = {
-  plugins: [
-    "postcss-import",
-    "tailwindcss",
-    "autoprefixer",
-    ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
-  ],
+//   plugins: [
+//     "postcss-import",
+//     "tailwindcss",
+//     "autoprefixer",
+//     ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
+//   ],
   pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
 
 };
